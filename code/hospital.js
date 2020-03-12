@@ -1,6 +1,5 @@
-"use strict";
-var hospital;
-(function (hospital) {
+var pessoa;
+(function (pessoa) {
     var Hospital = /** @class */ (function () {
         function Hospital() {
             this.funcionario = [];
@@ -19,7 +18,7 @@ var hospital;
         Hospital.prototype.addMedico = function (medico) {
             this.medico.push(medico);
         };
-        Hospital.prototype.addPaciente = function (medico) {
+        Hospital.prototype.addPaciente = function (paciente) {
             this.paciente.push(paciente);
         };
         Hospital.prototype.getFuncionario = function () {
@@ -30,5 +29,5 @@ var hospital;
         };
         return Hospital;
     }());
-    hospital.Hospital = Hospital;
-})(hospital || (hospital = {}));
+    pessoa.Hospital = Hospital;
+})(pessoa || (pessoa = {}));

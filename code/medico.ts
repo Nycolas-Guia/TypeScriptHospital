@@ -1,21 +1,21 @@
-namespace hospital{
+namespace pessoa{
     export class Medico extends Funcionario{
-        private crm: int;
-        private especialidade: int;
+        private crm: number;
+        private especialidade: string;
 
-        getCrm(): int{
+        getCrm(): number{
             return this.crm;
         }
 
-        setCrm(crm: int):void{
+        setCrm(crm: number):void{
             this.crm = crm;
         }
 
-         getEspecialidade(): int{
+         getEspecialidade(): string{
             return this.especialidade;
         }
 
-        setEspecialidade(especialidade: int):void{
+        setEspecialidade(especialidade: string):void{
             this.especialidade = especialidade;
         }
         

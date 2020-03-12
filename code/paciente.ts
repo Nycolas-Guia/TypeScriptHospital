@@ -1,8 +1,17 @@
-namespace hospital{
+namespace pessoa{
     export class Paciente extends Pessoa{
-    // "strictNullChecks": true,    // "strictNullChecks": true,    // "kkktttt        getCodPaciente(): number{
-            return thi        setCodFuncionario(cod:number): void{
+        private codPaciente: number;
+
+        getcodPaciente(){
+            
+            return this.codPaciente;
+
+        }
+
+        setcodPaciente(cod:number){
+
             this.codPaciente = cod;
+            
         }
     }
 }

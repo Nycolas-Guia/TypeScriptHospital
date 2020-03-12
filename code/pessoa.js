@@ -1,6 +1,5 @@
-"use strict";
-var hospital;
-(function (hospital) {
+var pessoa;
+(function (pessoa) {
     var Pessoa = /** @class */ (function () {
         function Pessoa(nome, cpf) {
             this.cpf = cpf;
@@ -22,5 +21,5 @@ var hospital;
         };
         return Pessoa;
     }());
-    hospital.Pessoa = Pessoa;
-})(hospital || (hospital = {}));
+    pessoa.Pessoa = Pessoa;
+})(pessoa || (pessoa = {}));

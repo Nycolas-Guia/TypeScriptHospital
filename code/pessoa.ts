@@ -1,4 +1,4 @@
-namespace hospital{
+namespace pessoa{
     export class Pessoa{
         //informações da classe
         private nome:string;

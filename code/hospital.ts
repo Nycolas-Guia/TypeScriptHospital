@@ -1,11 +1,11 @@
-namespace hospital{
+namespace pessoa{
     export class Hospital{
-        private nomeHospital:string|undefined;
+        private nomeHospital:string;
         private funcionario: Array<Funcionario> = [];
         private medico: Array<Medico> = [];
         private paciente: Array<Paciente> = [];
 
-        getNomeHospital():string|undefined{
+        getNomeHospital():string{
             return this.nomeHospital;
         }
 
@@ -21,7 +21,7 @@ namespace hospital{
             this.medico.push(medico);
         }
 
-         addPaciente(medico:Paciente):void{
+         addPaciente(paciente:Paciente):void{
             this.paciente.push(paciente);
         }
 

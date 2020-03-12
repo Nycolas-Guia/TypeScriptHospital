@@ -1,4 +1,3 @@
-"use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -12,8 +11,8 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var hospital;
-(function (hospital) {
+var pessoa;
+(function (pessoa) {
     var Medico = /** @class */ (function (_super) {
         __extends(Medico, _super);
         function Medico() {
@@ -32,6 +31,6 @@ var hospital;
             this.especialidade = especialidade;
         };
         return Medico;
-    }(hospital.Funcionario));
-    hospital.Medico = Medico;
-})(hospital || (hospital = {}));
+    }(pessoa.Funcionario));
+    pessoa.Medico = Medico;
+})(pessoa || (pessoa = {}));
